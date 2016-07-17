@@ -1,4 +1,4 @@
-const WinMouse = require('./build/Release/addon');
+const WinMouse = require('./index.js');
 WinMouse.moveTo(200,300);
 WinMouse.leftDown();
 WinMouse.leftUp();

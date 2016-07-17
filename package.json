@@ -1,0 +1,26 @@
+{
+  "name": "node-win-mouse",
+  "version": "1.0.2",
+  "description": "nodejs 控制鼠标动作",
+  "homepage": "https://github.com/wshxbqq/node-win-mouse",
+  "author": {
+    "name": "wshxbqq",
+    "email": "wshxbqq@gmail.com",
+    "url": "https://github.com/wshxbqq/node-win-mouse"
+  },
+  "keywords": [
+    "按键精灵,鼠标精灵"
+  ],
+  "main": "index.js",
+  "files": [
+    "addon.node",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wshxbqq/node-win-mouse"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
