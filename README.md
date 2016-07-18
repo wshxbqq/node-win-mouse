@@ -2,7 +2,7 @@
 
   npm install -g node-win-mouse
 
-__底层使用软件模拟点击. 并非驱动程序级别模拟__
+__`node-win-mouse` 为操作系统基本模拟. 并非`硬件驱动程序`级别模拟__
 
 
 需要 `64bit Winodws`   `Nodejs 6.0.0 + `
