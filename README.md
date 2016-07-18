@@ -1,5 +1,7 @@
 # node-win-mouse 模拟鼠标动作 类似鼠标精灵
 
+  npm install -g node-win-mouse
+
 __底层使用软件模拟点击. 并非驱动程序级别模拟__
 
 
@@ -15,7 +17,7 @@ __底层使用软件模拟点击. 并非驱动程序级别模拟__
 |rightUp|右键弹起|
 
 ```javascript
-const WinMouse = require('./build/Release/addon');
+const WinMouse = require('node-win-mouse');
 WinMouse.moveTo(200,300);
 WinMouse.leftDown();
 WinMouse.leftUp();
