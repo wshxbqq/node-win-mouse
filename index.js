@@ -1,1 +1,1 @@
-module.exports = require('./addon');
+module.exports = require('bindings')('addon.node');

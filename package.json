@@ -1,6 +1,6 @@
 {
   "name": "node-win-mouse",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "nodejs 控制鼠标动作",
   "homepage": "https://github.com/wshxbqq/node-win-mouse",
   "author": {
@@ -13,14 +13,21 @@
   ],
   "main": "index.js",
   "files": [
-    "addon.node",
+    "binding.gyp",
+    "addon.cc",
+    "test.js",
     "index.js"
   ],
+  "scripts": {
+    "test": "node test.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/wshxbqq/node-win-mouse"
   },
-  "engines": {
-    "node": ">= 6.0.0"
-  }
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^1.6.3"
+  },
+  "gypfile": true
 }
